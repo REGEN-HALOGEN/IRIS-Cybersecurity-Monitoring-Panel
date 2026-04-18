@@ -46,5 +46,17 @@ Launch the entire I.R.I.S ecosystem instantly. Ensure Docker, Rust, and Node.js 
 
 ---
 
+> **Status:** Alpha Version 1.1
+
+### Alpha Version 1.1 
+- **Dashboard Overhaul**: Completely redesigned the main dashboard into an enterprise-style SOC (Security Operations Center) layout.
+- **Device Awareness**: Added comprehensive device tracking (OS version, IP address, and status indicators) with interactive detail modals.
+- **Live Indicators & Security Score**: Implemented real-time system metrics, active alerts feed, and a dynamically calculated security score.
+- **Alerts Management**: Added dedicated views and drill-down pages for security alerts and detailed log analysis.
+- **Settings & Theming**: Introduced a new Settings page, reorganized navigation, and updated the default appearance to respect system preferences.
+- **UI/UX Polish**: Refined component padding, charts integrations, and adjusted component layouts using shadcn/ui.
+
+---
+
 > **Status:** Alpha Version 0.1
 *This is the initial Alpha v0.1 release, covering core feature functionality, UI scaffolding, active database/WS bindings, and AI integration limits.*
