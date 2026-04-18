@@ -1,7 +1,9 @@
 export interface Device {
   id: string;
   name: string;
-  status: 'online' | 'offline';
+  ip_address?: string;
+  os_version?: string;
+  status: 'online' | 'offline' | 'suspicious';
   last_seen: string | null;
   created_at: string;
 }

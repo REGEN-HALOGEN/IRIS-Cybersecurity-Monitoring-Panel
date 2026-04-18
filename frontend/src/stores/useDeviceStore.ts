@@ -8,7 +8,7 @@ interface DeviceState {
   activityFeed: ActivityEvent[];
   alerts: Alert[];
   setDevices: (devices: Device[]) => void;
-  updateDeviceStatus: (id: string, status: 'online' | 'offline') => void;
+  updateDeviceStatus: (id: string, status: 'online' | 'offline' | 'suspicious') => void;
   addTelemetry: (data: TelemetryData) => void;
   addActivity: (event: ActivityEvent) => void;
   getDeviceTelemetry: (id: string) => TelemetryData | undefined;

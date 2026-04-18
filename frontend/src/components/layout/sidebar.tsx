@@ -12,7 +12,6 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useWebSocket } from "@/hooks/useWebSocket";
-import { ThemeToggle } from "@/components/theme-toggle";
 
 const NAV_ITEMS = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
@@ -33,7 +32,6 @@ export function Sidebar() {
     <aside className="w-64 border-r border-border bg-card flex flex-col h-screen">
       <div className="h-16 flex items-center px-6 border-b border-border justify-between">
         <h1 className="font-bold text-lg tracking-wider text-primary">I.R.I.S</h1>
-        <ThemeToggle />
       </div>
 
       <nav className="flex-1 px-4 py-6 space-y-2">
